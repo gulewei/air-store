@@ -2,7 +2,7 @@
 
 ## Reference
 
-- ### step 0. import Air in your code
+- ### Step 0. Import Air in Your Code
 
 ```js
 var Air = require('air-store')
