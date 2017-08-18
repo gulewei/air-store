@@ -5,7 +5,7 @@ export default {
   moduleName: 'Air',
   entry: './src/air-store.js',
   dest: './dist/air-store.js',
-  format: 'iife',
+  format: 'umd',
   sourceMap: true,
   plugins: [
     nodeResolve(),

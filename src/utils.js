@@ -1,9 +1,9 @@
 var isarray = require('isarray')
 var isobject = require('isobject')
-var extend = require('extend')
+// var extend = require('extend')
 
 var _ = {
-  extend: extend,
+  // extend: extend,
   isobj: isobject,
   isfn: function (fn) {
     return typeof fn === 'function'
@@ -15,7 +15,7 @@ var _ = {
     if (isarray(val)) {
       return Array.prototype.slice.call(val)
     } else if (isobject(val)) {
-      return extend(true, {}, val)
+      return JSON.parse(JSON.stringify(val))
     } else {
       return val
     }
