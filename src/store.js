@@ -45,7 +45,7 @@ function store(properties) {
 
       // computed property
       if (item.isComputed) {
-        return console.warn('set computed property "%s" only does nothing')
+        return console.warn('set computed property "%s" only does nothing', name)
       }
 
       // set new value
