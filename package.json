@@ -1,6 +1,6 @@
 {
   "name": "air-store",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "modular state store for component communication",
   "main": "dist/air-store.js",
   "scripts": {
