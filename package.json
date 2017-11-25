@@ -2,7 +2,7 @@
   "name": "air-store",
   "version": "0.1.1",
   "description": "modular state store for component communication",
-  "main": "air-store.js",
+  "main": "dist/air-store.js",
   "scripts": {
     "webpack": "webpack",
     "rollup": "rollup -c"
